@@ -1,0 +1,17 @@
+Model: svm_rbf
+Feature: gabor
+Accuracy: 0.6458
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.61      0.15      0.25       234
+   PNEUMONIA       0.65      0.94      0.77       390
+
+    accuracy                           0.65       624
+   macro avg       0.63      0.55      0.51       624
+weighted avg       0.63      0.65      0.57       624
+
+Confusion Matrix:
+[[ 36 198]
+ [ 23 367]]

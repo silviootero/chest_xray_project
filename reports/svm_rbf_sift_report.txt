@@ -1,0 +1,17 @@
+Model: svm_rbf
+Feature: sift
+Accuracy: 0.7580
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.84      0.44      0.58       234
+   PNEUMONIA       0.74      0.95      0.83       390
+
+    accuracy                           0.76       624
+   macro avg       0.79      0.69      0.70       624
+weighted avg       0.78      0.76      0.74       624
+
+Confusion Matrix:
+[[103 131]
+ [ 20 370]]

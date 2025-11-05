@@ -1,0 +1,17 @@
+Model: random_forest
+Feature: lbp
+Accuracy: 0.7436
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.85      0.38      0.53       234
+   PNEUMONIA       0.72      0.96      0.82       390
+
+    accuracy                           0.74       624
+   macro avg       0.79      0.67      0.68       624
+weighted avg       0.77      0.74      0.71       624
+
+Confusion Matrix:
+[[ 90 144]
+ [ 16 374]]

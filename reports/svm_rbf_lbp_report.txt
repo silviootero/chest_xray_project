@@ -1,0 +1,17 @@
+Model: svm_rbf
+Feature: lbp
+Accuracy: 0.7692
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.88      0.45      0.59       234
+   PNEUMONIA       0.74      0.96      0.84       390
+
+    accuracy                           0.77       624
+   macro avg       0.81      0.71      0.72       624
+weighted avg       0.79      0.77      0.75       624
+
+Confusion Matrix:
+[[105 129]
+ [ 15 375]]

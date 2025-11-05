@@ -1,0 +1,17 @@
+Model: svm_rbf
+Feature: haralick
+Accuracy: 0.6314
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       1.00      0.02      0.03       234
+   PNEUMONIA       0.63      1.00      0.77       390
+
+    accuracy                           0.63       624
+   macro avg       0.81      0.51      0.40       624
+weighted avg       0.77      0.63      0.50       624
+
+Confusion Matrix:
+[[  4 230]
+ [  0 390]]

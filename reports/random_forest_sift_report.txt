@@ -1,0 +1,17 @@
+Model: random_forest
+Feature: sift
+Accuracy: 0.6587
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       1.00      0.09      0.16       234
+   PNEUMONIA       0.65      1.00      0.79       390
+
+    accuracy                           0.66       624
+   macro avg       0.82      0.54      0.48       624
+weighted avg       0.78      0.66      0.55       624
+
+Confusion Matrix:
+[[ 21 213]
+ [  0 390]]
