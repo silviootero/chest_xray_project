@@ -1,0 +1,17 @@
+Model: mlp
+Feature: haralick
+Accuracy: 0.6410
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.64      0.10      0.17       234
+   PNEUMONIA       0.64      0.97      0.77       390
+
+    accuracy                           0.64       624
+   macro avg       0.64      0.53      0.47       624
+weighted avg       0.64      0.64      0.55       624
+
+Confusion Matrix:
+[[ 23 211]
+ [ 13 377]]

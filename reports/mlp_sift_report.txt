@@ -1,0 +1,17 @@
+Model: mlp
+Feature: sift
+Accuracy: 0.7468
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.76      0.48      0.59       234
+   PNEUMONIA       0.74      0.91      0.82       390
+
+    accuracy                           0.75       624
+   macro avg       0.75      0.69      0.70       624
+weighted avg       0.75      0.75      0.73       624
+
+Confusion Matrix:
+[[112 122]
+ [ 36 354]]

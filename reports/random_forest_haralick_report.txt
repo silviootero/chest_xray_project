@@ -1,0 +1,17 @@
+Model: random_forest
+Feature: haralick
+Accuracy: 0.7901
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.81      0.57      0.67       234
+   PNEUMONIA       0.78      0.92      0.85       390
+
+    accuracy                           0.79       624
+   macro avg       0.80      0.75      0.76       624
+weighted avg       0.79      0.79      0.78       624
+
+Confusion Matrix:
+[[134 100]
+ [ 31 359]]

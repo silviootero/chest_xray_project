@@ -1,0 +1,17 @@
+Model: mlp
+Feature: hog
+Accuracy: 0.8221
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.98      0.54      0.69       234
+   PNEUMONIA       0.78      0.99      0.87       390
+
+    accuracy                           0.82       624
+   macro avg       0.88      0.77      0.78       624
+weighted avg       0.85      0.82      0.81       624
+
+Confusion Matrix:
+[[126 108]
+ [  3 387]]
